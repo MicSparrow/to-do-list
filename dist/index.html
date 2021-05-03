@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-do list</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="headerwrapper">
+        <header>
+          <img src="images/logo.jpg" alt="logo">
+          <h2>To-do list</h2>
+        </header>
+      </div>
+      <div class="sectionwrapper">
+        <section>
+          <div class="navdiv">
+            <nav>
+              <ul>
+                <li><a href="#" class="all">All tasks</a></li>
+                <li><a href="#" class="priority">Priorities</a></li>
+                <li><a href="#" class="normal">Normal tasks</a></li>
+                <li><a href="#" title="Click to add a new project" id="plus">+</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="preaddtask">
+            <p title="Click to add a new task" id="plus2">+</p>
+            <p class="task-info">Click this button to add a new task</p>
+          </div>
+          <div class="addtask">
+          </div>
+        </section>
+        <section>
+         <div class="addproject">
+          <div contenteditable="true" class="pr">
+          Click here to add a project title
+          </div>
+         </div> 
+        </section>
+        <hr>
+        <section>
+          <div class="taskadded">
+            <table class="task-table">
+              <tr>
+                <th>Task name</th>
+                <th>Date</th>
+                <th>Priority</th>
+                <th></th>
+              </tr>
+              <tbody class="table-body"></tbody>
+            </table>
+          </div>
+        </section>
+    </div>
+    </div>
+
+    <div class="end">
+
+      <footer>
+        <hr>Made by <a href="https://www.github.com/micsparrow">MicSparrow</a>, 2021
+        <hr>
+      </footer>
+    </div>
+    <script src="main.js" defer></script>
+
+  </body>
+
+</html>

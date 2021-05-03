@@ -1,0 +1,23 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "The Odin Project - To-do list. Here JS, CSS and HTML skilled are still improved. New thing to review - webpack and npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicSparrow/to-do-list.git"
+  },
+  "author": "MicSparrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicSparrow/to-do-list/issues"
+  },
+  "homepage": "https://github.com/MicSparrow/to-do-list#readme",
+  "devDependencies": {
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}

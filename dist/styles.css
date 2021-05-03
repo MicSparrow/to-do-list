@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #000000;
+  padding: 15px;
+  text-align: left;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+header img {
+  display: inline;
+  height: 50px;
+  width: 50px;
+  padding-top: 12px;
+  padding-right: 8px;
+}
+
+h2 {
+  display: inline;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+nav a:hover {
+  color: #f1f1f1;
+}
+
+.preaddtask {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.addtask {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+#plus {
+  font-size: 25px;
+}
+
+#plus2 {
+  font-size: 55px;
+  text-align: center;
+  padding-left: 10px;
+  margin: 5px;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+
+#plus2:hover {
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.task-info {
+  color: #000000;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.taskadded {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th {
+  padding: 15px;
+}
+
+.addproject {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.pr {
+ display: none;
+}
+
+hr {
+  border: 1px solid #d9d9d9;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.task-form {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #000000;
+  width: 200px;
+  height: 30px;
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  display: inline;
+  font-weight: bold;
+  padding: 5px;
+  background: #a6a6a6;
+  border: 1px solid #000000;
+}
+
+.button1,
+.button2 {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.check-box {
+  -webkit-box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
+  border: 1px solid #000000;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.date {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  cursor: pointer;
+  text-decoration: underline;
+}
